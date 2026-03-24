@@ -1,0 +1,11 @@
+import { createRoot } from 'react-dom/client'
+import { Leva } from 'leva'
+import './index.css'
+import App from './App.tsx'
+
+createRoot(document.getElementById('root')!).render(
+    <>
+    <App />
+    <Leva />
+    </>
+)
